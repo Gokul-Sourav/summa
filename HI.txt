@@ -1,0 +1,21 @@
+ 
+
+ String faculty[] = new String[5];
+
+
+
+
+
+
+rset2 = state.executeQuery("select * from training_info where training_no ='"+id+"'");
+                        if(rset2.next())
+                        {
+                            faculty[0]= rset2.getString("m1_faculty");
+                            faculty[1]= rset2.getString("m2_faculty");
+                            faculty[2]= rset2.getString("m3_faculty");
+                            faculty[3]= rset2.getString("m4_faculty");
+                            faculty[4]= rset2.getString("m5_faculty");
+                        }
+
+Kiruba re
+9994428227
