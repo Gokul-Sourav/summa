@@ -1,6 +1,4 @@
- 
 
- String faculty[] = new String[5];
 
 
 
